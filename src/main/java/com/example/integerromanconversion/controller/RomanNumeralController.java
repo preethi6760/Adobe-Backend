@@ -1,4 +1,5 @@
 package com.example.integerromanconversion.controller;
+
 import com.example.integerromanconversion.service.RomanNumeralService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "http://localhost")
 public class RomanNumeralController {
 
     private final RomanNumeralService romanNumeralService;
